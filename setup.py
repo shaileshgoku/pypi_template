@@ -3,12 +3,12 @@ import setuptools
 with open("README.md","r",encoding = "utf-8") as f:
     long_description = f.read()
 
-__version__ = "0.0.0"
+__version__ = "0.0.0"    # update as per your need
 
-REPO_NAME = "IPYNBRENDERER"
-AUTHOR_USER_NAME = "shaileshgoku"
-SRC_REPO = "IPYNBRENDERER"
-AUTHOR_EMAIL = "shouturmight@gmail.com"
+REPO_NAME = "<your Repository Name>"
+AUTHOR_USER_NAME = "<your user name>"
+SRC_REPO = "<your Repository Name>"
+AUTHOR_EMAIL = "<your email id>"
 
 setuptools.setup(
     name=SRC_REPO,
